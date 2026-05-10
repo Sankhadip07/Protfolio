@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sankhadip Singha Roy | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <canvas id="stars"></canvas>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo"><span>~/</span>sankhadip.dev</div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-tag">⚡ Open to Opportunities</div>
+          <h1 class="hero-name">
+            Hi, I'm<br>
+            <span class="gradient-text">Sankhadip<br>Singha Roy</span>
+          </h1>
+          <p class="hero-role">
+            <span id="typed-text"></span><span class="cursor"></span>
+          </p>
+          <div class="hero-btns">
+            <a href="#projects" class="btn-primary">View Projects</a>
+            <a href="#" class="btn-outline">Download Resume</a>
+            <a href="#contact" class="btn-ghost">Contact Me</a>
+          </div>
+        </div>
+        <div class="avatar-wrap">
+          <div class="avatar-glow-outer"></div>
+          <div class="avatar-ring">
+            <div class="avatar-inner">
+              <span class="avatar-initials">SSR</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="container">
+        <div class="sec-header reveal">
+          <div class="sec-label">// about me</div>
+          <h2 class="sec-title">Who I Am<span class="sec-sub">Electrical engineer with a software soul</span></h2>
+        </div>
+        <div class="about-grid reveal">
+          <div class="about-text">
+            <p>I'm a <strong>Motivated Electrical Engineering student</strong> with strong programming skills in <strong>Python, C, and JavaScript</strong>, along with hands-on experience in <strong>IoT, AI-based systems</strong>, and frontend web development.</p>
+            <p>Passionate about building efficient, real-world software solutions using <strong>Python, OpenCV, HTML, CSS, and JavaScript</strong>. Quick learner with strong teamwork and communication skills, seeking opportunities in <strong>software development and IT services</strong>.</p>
+            <div class="about-links">
+              <a href="https://github.com/Sankhadip07" class="btn-outline" target="_blank">GitHub ↗</a>
+              <a href="https://linkedin.com/in/sankhadip-singha-roy-a165642b5" class="btn-ghost" target="_blank">LinkedIn ↗</a>
+            </div>
+          </div>
+          <div class="stat-grid">
+            <div class="stat-card">
+              <div class="stat-num">3+</div>
+              <div class="stat-lbl">Projects Built</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num">6.82</div>
+              <div class="stat-lbl">Current GPA</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num">3+</div>
+              <div class="stat-lbl">Languages</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num">SIH</div>
+              <div class="stat-lbl">2025 Participant</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+      <div class="container">
+        <div class="sec-header reveal">
+          <div class="sec-label">// education</div>
+          <h2 class="sec-title">Academic Journey<span class="sec-sub">Building the foundation</span></h2>
+        </div>
+        <div class="timeline reveal">
+          <div class="tl-item">
+            <div class="tl-dot">B.E</div>
+            <div class="tl-card">
+              <div class="tl-year">2023 – Present</div>
+              <div class="tl-degree">B.Tech in Electrical Engineering</div>
+              <div class="tl-school">Academy of Technology, MAKAUT</div>
+              <span class="tl-score">GPA: 6.78 / 10</span>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot">XII</div>
+            <div class="tl-card">
+              <div class="tl-year">Higher Secondary</div>
+              <div class="tl-degree">Higher Secondary Certificate</div>
+              <div class="tl-school">Dhatrigram High School</div>
+              <span class="tl-score">Score: 88.8%</span>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot">X</div>
+            <div class="tl-card">
+              <div class="tl-year">Secondary</div>
+              <div class="tl-degree">Secondary Certificate (Madhyamik)</div>
+              <div class="tl-school">Dhatrigram High School</div>
+              <span class="tl-score">Score: 91.4%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="container">
+        <div class="sec-header reveal">
+          <div class="sec-label">// skills</div>
+          <h2 class="sec-title">Tech Arsenal<span class="sec-sub">Tools I have knowladge</span></h2>
+        </div>
+        <div class="skills-cats reveal">
+
+          <div class="skill-cat">
+            <div class="skill-cat-title">Programming Languages</div>
+            <div class="skill-item">
+              <div class="skill-row"><span class="skill-name">Python</span><span class="skill-pct">85%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-row"><span class="skill-name">C</span><span class="skill-pct">72%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="72"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-row"><span class="skill-name">JavaScript</span><span class="skill-pct">68%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="68"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-cat">
+            <div class="skill-cat-title">Web Development</div>
+            <div class="skill-item">
+              <div class="skill-row"><span class="skill-name">HTML5</span><span class="skill-pct">90%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-row"><span class="skill-name">CSS3</span><span class="skill-pct">82%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-row"><span class="skill-name">Basic React</span><span class="skill-pct">35%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="55"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-cat">
+            <div class="skill-cat-title">Libraries &amp; Tools</div>
+            <div class="tag-grid">
+              <span class="tag">OpenCV</span>
+              <span class="tag">Pandas</span>
+              <span class="tag">Git</span>
+              <span class="tag">GitHub</span>
+              <span class="tag">Figma</span>
+              <span class="tag">Tkinter</span>
+              <span class="tag">YOLOv8</span>
+              <span class="tag">NumPy</span>
+            </div>
+          </div>
+
+          <div class="skill-cat">
+            <div class="skill-cat-title">Core Areas</div>
+            <div class="tag-grid">
+              <span class="tag">IoT Fundamentals</span>
+              <span class="tag">Computer Vision</span>
+              <span class="tag">Frontend Dev</span>
+            </div>
+            <div style="margin-top:1.25rem;">
+              <div class="skill-cat-title purple-title">Soft Skills</div>
+              <div class="tag-grid" style="margin-top:.75rem;">
+                <span class="tag tag-purple">Teamwork</span>
+                <span class="tag tag-purple">Communication</span>
+                <span class="tag tag-purple">Leadership</span>
+                <span class="tag tag-purple">Problem Solving</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="container">
+        <div class="sec-header reveal">
+          <div class="sec-label">// projects</div>
+          <h2 class="sec-title">What I've Built<span class="sec-sub">Real problems, real solutions</span></h2>
+        </div>
+        <div class="projects-grid reveal">
+
+          <div class="proj-card proj-card--1">
+            <div class="proj-num">// 01</div>
+            <div class="proj-title">AI-Based Security Surveillance System</div>
+            <div class="proj-tech">
+              <span>Python</span><span>OpenCV</span><span>YOLOv8</span>
+            </div>
+            <ul class="proj-feats">
+              <li>Real-time human detection</li>
+              <li>Intruder alert with capture</li>
+              <li>Timestamp-based storage</li>
+              <li>Fully automated AI pipeline</li>
+            </ul>
+          </div>
+
+          <div class="proj-card proj-card--2">
+            <div class="proj-badge">SIH 2025</div>
+            <div class="proj-num">// 02</div>
+            <div class="proj-title">Smart Traffic Management System</div>
+            <div class="proj-tech">
+              <span>React</span><span>AI</span><span>IoT</span>
+            </div>
+            <ul class="proj-feats">
+              <li>AI-powered smart routing</li>
+              <li>Emergency vehicle priority</li>
+              <li>Urban congestion reduction</li>
+              <li>Smart India Hackathon 2025</li>
+            </ul>
+          </div>
+
+          <div class="proj-card proj-card--3">
+            <div class="proj-num">// 03</div>
+            <div class="proj-title">Resistor Color Code Calculator</div>
+            <div class="proj-tech">
+              <span>Python</span><span>Tkinter</span>
+            </div>
+            <ul class="proj-feats">
+              <li>Clean GUI application</li>
+              <li>4-band resistor calculation</li>
+              <li>Tolerance value display</li>
+              <li>Electrical engineering utility</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements">
+      <div class="container">
+        <div class="sec-header reveal">
+          <div class="sec-label">// achievements</div>
+          <h2 class="sec-title">Milestones<span class="sec-sub">Recognition &amp; impact</span></h2>
+        </div>
+        <div class="ach-grid reveal">
+          <div class="ach-card">
+            <div class="ach-icon"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5q0 .807-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33 33 0 0 1 2.5.5m.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935m10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935"/>
+              </svg></div>
+            <div class="ach-title">Smart India Hackathon 2025</div>
+            <div class="ach-desc">Selected participant at SIH 2025 with an AI + IoT based smart traffic management solution for urban congestion.</div>
+          </div>
+          <div class="ach-card">
+            <div class="ach-icon"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-robot" viewBox="0 0 16 16">
+                <path d="M6 12.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5M3 8.062C3 6.76 4.235 5.765 5.53 5.886a26.6 26.6 0 0 0 4.94 0C11.765 5.765 13 6.76 13 8.062v1.157a.93.93 0 0 1-.765.935c-.845.147-2.34.346-4.235.346s-3.39-.2-4.235-.346A.93.93 0 0 1 3 9.219zm4.542-.827a.25.25 0 0 0-.217.068l-.92.9a25 25 0 0 1-1.871-.183.25.25 0 0 0-.068.495c.55.076 1.232.149 2.02.193a.25.25 0 0 0 .189-.071l.754-.736.847 1.71a.25.25 0 0 0 .404.062l.932-.97a25 25 0 0 0 1.922-.188.25.25 0 0 0-.068-.495c-.538.074-1.207.145-1.98.189a.25.25 0 0 0-.166.076l-.754.785-.842-1.7a.25.25 0 0 0-.182-.135"/>
+                <path d="M8.5 1.866a1 1 0 1 0-1 0V3h-2A4.5 4.5 0 0 0 1 7.5V8a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1v1a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-1a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1v-.5A4.5 4.5 0 0 0 10.5 3h-2zM14 7.5V13a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V7.5A3.5 3.5 0 0 1 5.5 4h5A3.5 3.5 0 0 1 14 7.5"/>
+              </svg></div>
+            <div class="ach-title">AI Surveillance System</div>
+            <div class="ach-desc">Built a fully functional AI-powered security system using YOLOv8 and OpenCV for real-time threat detection.</div>
+          </div>
+          <div class="ach-card">
+            <div class="ach-icon"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-lightning-charge-fill" viewBox="0 0 16 16">
+                <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z"/>
+              </svg></div>
+            <div class="ach-title">Cross-Domain Builder</div>
+            <div class="ach-desc">Delivered multiple academic projects spanning IoT, computer vision, GUI apps, and web development.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications">
+      <div class="container">
+        <div class="sec-header reveal">
+          <div class="sec-label">// learning</div>
+          <h2 class="sec-title">Currently Learning<span class="sec-sub">Always levelling up</span></h2>
+        </div>
+        <div class="cert-list reveal">
+          <div class="cert-item">
+            <div class="cert-dot">🐍</div>
+            <div>
+              <div class="cert-title">Python for AI/ML Development</div>
+              <div class="cert-status">in progress · active learner</div>
+            </div>
+          </div>
+          <div class="cert-item">
+            <div class="cert-dot">📡</div>
+            <div>
+              <div class="cert-title">IoT &amp; Embedded Systems Projects</div>
+              <div class="cert-status">in progress · hands-on exploration</div>
+            </div>
+          </div>
+          <div class="cert-item">
+            <div class="cert-dot">🧠</div>
+            <div>
+              <div class="cert-title">Data Structures &amp; Programming Fundamentals</div>
+              <div class="cert-status">in progress · daily practice</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="container">
+        <div class="sec-header reveal">
+          <div class="sec-label">// contact</div>
+          <h2 class="sec-title">Let's Connect<span class="sec-sub">Open to opportunities at TCS, Infosys, Deloitte &amp; more</span></h2>
+        </div>
+        <div class="contact-wrap reveal">
+          <div class="contact-info">
+            <a href="mailto:sankha3421@gmail.com" class="contact-item">
+              <div class="contact-icon"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+                <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671"/>
+                <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791"/>
+              </svg></div>
+              <div>
+                <div class="contact-label">email</div>
+                <div class="contact-val">sankha3421@gmail.com</div>
+              </div>
+            </a>
+            <a href="tel:8670932233" class="contact-item">
+              <div class="contact-icon"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
+                <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0"/>
+              </svg></div>
+              <div>
+                <div class="contact-label">phone</div>
+                <div class="contact-val">+91 8670932233</div>
+              </div>
+            </a>
+            <a href="https://linkedin.com/in/sankhadip-singha-roy-a165642b5" class="contact-item" target="_blank">
+              <div class="contact-icon"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+              </svg></div>
+              <div>
+                <div class="contact-label">linkedin</div>
+                <div class="contact-val">sankhadip-singha-roy</div>
+              </div>
+            </a>
+            <a href="https://github.com/Sankhadip07" class="contact-item" target="_blank">
+              <div class="contact-icon"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+              </svg></div>
+              <div>
+                <div class="contact-label">github</div>
+                <div class="contact-val">Sankhadip07</div>
+              </div>
+            </a>
+            <div class="contact-item no-hover">
+              <div class="contact-icon"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+              </svg></div>
+              <div>
+                <div class="contact-label">location</div>
+                <div class="contact-val">Dhatrigram, Purba Bardhaman, WB – 713405</div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form" id="contact-form">
+            <input type="text" id="cf-name" placeholder="Your name" autocomplete="off"/>
+            <input type="email" id="cf-email" placeholder="Your email" autocomplete="off"/>
+            <input type="text" id="cf-subject" placeholder="Subject" autocomplete="off"/>
+            <textarea id="cf-msg" placeholder="Your message..."></textarea>
+            <button class="btn-primary btn-send" onclick="handleFormSend()">Send Message →</button>
+            <div id="form-success" class="form-success hidden">✅ Message sent! I'll get back to you soon.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Designed &amp; Developed by <span>Sankhadip Singha Roy</span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
